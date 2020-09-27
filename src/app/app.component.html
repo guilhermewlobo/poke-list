@@ -1,0 +1,17 @@
+<app-header></app-header>
+
+<div style="text-align:center">
+    <h1>
+        Pokémon List
+    </h1>
+    <table class="table table-bordered">
+    <tbody>
+        <tr *ngFor="let item of data">
+            <td>{{item.name}}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+<app-footer></app-footer>
+
